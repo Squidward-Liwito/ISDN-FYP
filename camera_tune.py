@@ -38,7 +38,7 @@ CAMERA_CONFIG = {
 }
 
 # Settings file path
-SETTINGS_FILE = os.path.expanduser('~/Desktop/camera_settings.json')
+SETTINGS_FILE = os.path.expanduser('./camera_settings.json')
 
 # ============================================
 # SETTINGS SAVE/LOAD FUNCTIONS
