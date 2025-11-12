@@ -1,0 +1,14 @@
+{
+    "auto_exposure": 1,
+    "exposure": 1964,
+    "analogue_gain": 144,
+    "white_balance_auto": 0,
+    "brightness_offset": 10,
+    "contrast": 0.8999999999999984,
+    "saturation": 0.9999999999999992,
+    "sharpness": 0.1,
+    "red_gain": 1.1500000000000001,
+    "green_gain": 0.8999999999999999,
+    "blue_gain": 1.7499999999999998,
+    "denoise": false
+}
