@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# 临时文件和缓存
+*.log
+*.tmp
+.DS_Store
+
+# 生成的图像和buffer目录（不提交到仓库）
+buffer/
+capture/buffer/
+selectedFrame/
+api_results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 测试文件
+test_*.jpg
+*.jpeg
+*.png
+

@@ -17,20 +17,20 @@ CAMERA_CONFIG = {
     
     # Exposure and brightness (v4l2 hardware controls)
     'auto_exposure': 1,        # 0=auto, 1=manual (IMPORTANT: 1 for manual control!)
-    'exposure': 800,           # 4-1964 (lower=darker, higher=brighter)
-    'analogue_gain': 112,      # 16-1023 (lower=less noise, higher=brighter)
+    'exposure': 1964,          # 4-1964 (lower=darker, higher=brighter)
+    'analogue_gain': 144,      # 16-1023 (lower=less noise, higher=brighter)
     'white_balance_auto': 0,   # 0=manual, 1=auto (for color correction)
     
     # Image processing (OpenCV software controls)
-    'brightness_offset': 15,    # -100 to 100
-    'contrast': 1.4,           # 0.5 to 3.0 (1.0 = no change)
-    'saturation': 1.1,         # 0.0 to 2.0 (1.0 = no change)
-    'sharpness': 0.0,          # 0.0 to 2.0 (0.0 = no sharpening)
+    'brightness_offset': 10,   # -100 to 100
+    'contrast': 0.9,           # 0.5 to 3.0 (1.0 = no change)
+    'saturation': 1.0,         # 0.0 to 2.0 (1.0 = no change)
+    'sharpness': 0.1,          # 0.0 to 2.0 (0.0 = no sharpening)
     
     # RGB Channel gains (0.0 to 2.0, 1.0 = no change)
-    'red_gain': 1.0,           # Red channel multiplier
-    'green_gain': 1.0,         # Green channel multiplier
-    'blue_gain': 1.0,          # Blue channel multiplier
+    'red_gain': 1.15,          # Red channel multiplier
+    'green_gain': 0.9,         # Green channel multiplier
+    'blue_gain': 1.75,         # Blue channel multiplier
     
     # Advanced
     'denoise': False,          # Apply denoising filter
